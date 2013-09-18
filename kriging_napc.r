@@ -47,10 +47,6 @@ return(out)
 }
 d2km(1) # 1 degree
 
-# Set directory
-setwd("E:\\NAPC\\NAPC_GEOSTAT")
-#setwd("C:\\Users\\Administrator\\Documents\\users\\miraflor\\NAPC_GEOSTAT")
-
 # New CRS
 new_crs <- "+proj=robin +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84
 +units=m +no_defs"
